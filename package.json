@@ -1,2 +1,12 @@
-npm init -y
-npm install express
+{
+  "name": "social-media-microservice",
+  "version": "1.0.0",
+  "description": "Microservicio para publicar en redes sociales usando APIs no oficiales",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
